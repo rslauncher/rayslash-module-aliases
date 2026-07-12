@@ -1,0 +1,23 @@
+id = "rayslash.aliases"
+name = "Aliases"
+description = "Open quick links, files, folders, and explicit commands."
+author = "rayslash"
+version = "1.0.0"
+api_version = "^1.0"
+license = "MIT"
+source = "https://github.com/rslauncher/rayslash-module-aliases"
+icon = "icon.svg"
+kind = "wasm"
+
+[permissions]
+network = []
+cache = false
+clipboard = false
+notifications = false
+commands = true
+
+[[providers]]
+id = "aliases"
+name = "Aliases"
+description = "Open quick links, files, folders, and explicit commands."
+triggers = []
